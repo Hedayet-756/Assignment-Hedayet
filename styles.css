@@ -25,7 +25,7 @@ list-style-type: none;
 gap: 32px;
 align-items: center;
 }
-.navbar .btn {
+.btn {
     background-color: #469165;
     border: none;
     border-radius: 4px;
@@ -39,7 +39,7 @@ align-items: center;
 }
 
 #banner {
-    background-image: url('./assets/hero-bg.png');
+    background-image: url('hero-bg.png');
     max-width: 1600px;
     height: 674px;
     margin: 0 auto;
@@ -297,4 +297,48 @@ span {
 .p-list .list {
     height: 20px;
     margin-bottom: 16px;
+}
+
+#chlanges {
+    width: 1600px;
+    height: 506px;
+    padding: 2px 120px 120px 120px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+#chlanges .chlanges-container {
+    height: 384px;
+    border-radius: 12px;
+    padding: 80px 40px;
+    text-align: center;
+
+}
+
+.chlanges-heading {
+    margin: 80px 40px 24px;
+}
+
+.chlanges-heading h2 {
+    height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.chlanges-heading p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #627382;
+}
+
+
+.btn-margin {
+    margin-bottom: 16px;
+}
+
+.chlanges-body p {
+    list-style: 20px;
+    font-size: 16px;
+    color: #627382;
 }
