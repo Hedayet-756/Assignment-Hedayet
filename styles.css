@@ -39,7 +39,7 @@ align-items: center;
 }
 
 #banner {
-    background-image: url('../assets/hero-bg.png');
+    background-image: url('./assets/hero-bg.png');
     max-width: 1600px;
     height: 674px;
     margin: 0 auto;
