@@ -38,9 +38,16 @@ align-items: center;
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #4a5863;
+    transform: scale(1.25);
+}
+
+/* Header-section */
+
 #banner {
     background-image: url('hero-bg.png');
-    max-width: 1600px;
+    width: 1600px;
     height: 674px;
     margin: 0 auto;
     gap: 40px;
@@ -142,6 +149,12 @@ span {
     color: #FFFFFF;
     text-align: center;
 }
+
+.card-1:hover {
+    background-color: #757575;
+    transform: scale(1.15)
+}
+
 .card-1 p {
     width: 189px;
     height: 19px;
@@ -168,6 +181,14 @@ span {
     color: #FFFFFF;
     text-align: center;
 }
+
+.card-2:hover {
+    background-color: #757575;
+    transform: scale(1.15)
+}
+
+/* notes-section */
+
  #notes {
     width: 1600px;
     height: 448px;
@@ -198,6 +219,7 @@ span {
     color: #001931;
     letter-spacing: 0%;
  }
+
 .card-containter{
     width: 1360px;
     height: 300px;
@@ -218,6 +240,7 @@ span {
     align-items: center;
     box-shadow: 8px 0px 0px 0px #0000000F;
 }
+
 .cards img {
     width: 60px;
     height: 60px;
@@ -225,6 +248,7 @@ span {
     border-radius: 100px;
     margin: 40px 120px 24px;
 }
+
 .cards h3 {
     width: 274px;
     height: 29px;
@@ -247,12 +271,16 @@ span {
     color: #627382;
     letter-spacing: 0%;
 }
+
+/* brain-section */
+
 #brain {
     width: 1600px;
     height: 840px;
     padding: 120px;
     gap: 40px;
 }
+
 #brain .brain-container {
     width: 1300px;
     height: 600px;
@@ -299,6 +327,9 @@ span {
     margin-bottom: 16px;
 }
 
+
+/* chlanges-body */
+
 #chlanges {
     width: 1600px;
     height: 506px;
@@ -326,6 +357,7 @@ span {
     margin-bottom: 16px;
     color: #001931;
 }
+
 .chlanges-heading p {
     line-height: 24px;
     font-size: 16px;
@@ -341,4 +373,52 @@ span {
     list-style: 20px;
     font-size: 16px;
     color: #627382;
+}
+
+/* Footer style */
+
+#footer-container {
+    width: 1600px;
+    height: 348px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+.footer-item {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-link p {
+    width: 113px;
+    color: #FFFFFF;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer-link button {
+    gap: 16px;
+    border-radius: 100px;
+}
+
+hr {
+    width: 1360px;
+    /* border: 1px;
+    height: 1px; */
+    Color: Gray-Light
+}
+
+.author p {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FAFAFA;
+    margin-top: 30px;
+
 }
